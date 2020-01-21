@@ -1,0 +1,9 @@
+from kashgari.corpus import ChineseDailyNerCorpus
+
+train_x, train_y = ChineseDailyNerCorpus.load_data('train')
+valid_x, valid_y = ChineseDailyNerCorpus.load_data('validate')
+test_x, test_y  = ChineseDailyNerCorpus.load_data('test')
+
+print("train data count: {len(train_x)}")
+print("validate data count: {len(valid_x)}")
+print("test data count: {len(test_x)}")

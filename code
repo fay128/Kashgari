@@ -23,3 +23,5 @@ from kashgari.tasks.classification import CNNModel
 
 model = CNNModel()
 model.fit(train_x, train_y, val_x, val_y, batch_size=128)
+
+https://eliyar.biz/nlp_chinese_text_classification_in_15mins/
